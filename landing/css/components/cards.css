@@ -1,0 +1,75 @@
+body{
+  text-align: center;
+  font-size: 14px;
+}
+h2,p{
+  text-align: left;
+}
+.container{
+  width: auto;
+  margin:0 auto;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.card-category{
+  background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../../images/WechatIMG6.jpeg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 4px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  margin-bottom: 30px;
+}
+.options{
+  width: 450px;
+}
+.options .card-product{
+  display: flex;
+  background-color: white;
+  box-shadow: 1px 1px 3px grey;
+  height: 150px;
+  align-items: center;
+}
+.options .card-product img{
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+.options .card-product .productinfo{
+  padding: 16px;
+}
+.card-trip{
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  width: 450px;
+}
+.card-trip img{
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+  object-position: bottom;
+}
+.card-trip .descripion{
+  display: flex;
+  padding: 16px;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+}
+.card-trip .card-trip-user{
+  position: absolute;
+  right: 16px;
+  top: -20px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: white 1px solid;
+}

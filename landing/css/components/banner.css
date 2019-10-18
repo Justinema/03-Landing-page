@@ -1,0 +1,42 @@
+.Banner{
+  background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(../../images/thumb_IMG_6768_1024.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  margin-top: -22px;
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: space-around;
+}
+.allbtn{
+  padding-top: 50;
+}
+.btn-medium{
+  border-radius: 20px;
+  border: 1px solid #c1bdbd;
+  color: #bfbaba;
+  padding: 10px;
+}
+.btn-medium:hover{
+ color: grey;
+ border-color: grey;
+}
+.btn-treehouse{
+  background-color: #6ed46e;
+  border-radius: 4px;
+  color: white;
+  padding:10px;
+}
+.btn-treehouse:hover{
+ background-color: #11bb11;
+}
+.btn-yours{
+  background-color: pink;
+  border-radius: 4px;
+  color: white;
+  padding:10px;
+}
+.btn-yours:hover{
+  background-color: #e8a2e0;
+}
